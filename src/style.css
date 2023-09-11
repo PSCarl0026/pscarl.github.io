@@ -6,8 +6,7 @@ body{
 }
 /* 
 div:has(h1){
-    font-size: 1.5rem;
-    font-weight: 950;
+    font-size: clamp(3.5rem, 10vw + 1rem, 5rem);
 }
 div:has(h2){
     font-size: 2.5rem;
@@ -89,15 +88,18 @@ a,li{
 }
 
 
-
+.hero{
+    height: 70vh;
+    align-items: center;
+}
 /* container */
 .container{
     position: relative;
 }
 .container-fluid{
     position:relative;
-    width:min(80%, 1000px);
-    margin-inline: auto ;
+    display: flex;
+    justify-self: center;
 }
 
 
@@ -132,8 +134,12 @@ a,li{
     width: 50px;
     color:#000;
 }
-/* Tablet */
 
+
+h1{
+    font-size: clamp(1rem, 10vw + 1rem, 3rem);
+    line-height: 1;
+}
 
 
 
