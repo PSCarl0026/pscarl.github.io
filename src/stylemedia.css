@@ -1,0 +1,19 @@
+@media(max-width:768px){
+    .nav-items{
+        visibility: hidden;
+    }
+
+    .burger{
+        visibility: visible;
+        position: absolute;
+        right:10%;
+        top: 15px;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+
+}
+@media(max-width:360px){
+    
+}

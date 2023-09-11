@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+/* 
+div:has(h1){
+    font-size: 1.5rem;
+    font-weight: 950;
+}
+div:has(h2){
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+div:has(p){
+    font-size: 18px;
+    font-weight: 500;
+} */
+
+
+/* Font Style */
+a,li{
+    text-decoration:none;
+    list-style: none;
+}
+/* Color */
+.text-dark{
+    color:#444;
+}
+.text-light{
+    color:#fff;
+}
+
+.text-blue{
+    color:#00B0F0
+}
+
+.text-purple{
+    color: #CC00FF;
+}
+
+.bg-main{
+    background-color: #751B7F;
+}
+
+/* font-weight */
+.text-normal{
+    font-weight: 400;
+}
+
+.text-light{
+    font-weight: 100;
+}
+
+.text-bold{
+    font-weight: 600;
+}
+
+.text-bolder{
+    font-weight: 950;
+}
+
+.text-xl{
+ font-size: 5rem ;
+}
+
+.text-lg{
+    font-size: 3.5rem ;
+}
+
+.text-md{
+    font-size: 2rem ;
+
+}.text-sm{
+    font-size: 18px ;
+}
+
+/* text-alignment */
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}.text-right{
+    text-align: right;
+}
+
+
+
+/* container */
+.container{
+    position: relative;
+}
+.container-fluid{
+    position:relative;
+    width:min(80%, 1000px);
+    margin-inline: auto ;
+}
+
+
+
+
+
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+    width:min(90%, auto);
+}
+
+.nav-items{
+    position: relative;
+    display: flex;
+    gap:2rem;
+}
+
+
+
+.logo{
+   font-size: 2rem;
+   font-weight: 950;
+}
+
+.burger{
+    visibility: hidden;
+    width: 50px;
+    color:#000;
+}
+/* Tablet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero */
